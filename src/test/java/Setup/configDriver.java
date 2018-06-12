@@ -15,7 +15,7 @@ public class configDriver {
                 case 'C':
                     try {
                         //Driver p/ Mac
-                        System.setProperty("webdriver.chrome.driver", "chromedriver_37");
+                        System.setProperty("webdriver.chrome.driver", "chromedriver.exe");
                         driver = new ChromeDriver();
                         System.out.println("ChromeDriver inicializado na 2.37 p/ Mac");
                     } catch (NullPointerException e) {
